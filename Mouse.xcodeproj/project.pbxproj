@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88892D7E1C91B0510014F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D7D1C91B0510014F2D2 /* AppDelegate.swift */; };
+		88892D801C91B0510014F2D2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88892D7F1C91B0510014F2D2 /* GameScene.sks */; };
+		88892D821C91B0560014F2D2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D811C91B0560014F2D2 /* GameScene.swift */; };
+		88892D841C91B0560014F2D2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D831C91B0560014F2D2 /* GameViewController.swift */; };
+		88892D871C91B0560014F2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88892D851C91B0560014F2D2 /* Main.storyboard */; };
+		88892D891C91B0570014F2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88892D881C91B0570014F2D2 /* Assets.xcassets */; };
+		88892D8C1C91B0570014F2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88892D8A1C91B0570014F2D2 /* LaunchScreen.storyboard */; };
+		88892D941C91B1160014F2D2 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D931C91B1160014F2D2 /* Mouse.swift */; };
+		88892D961C91B7920014F2D2 /* UIColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D951C91B7920014F2D2 /* UIColorsExtensions.swift */; };
+		88892D9E1C91B9400014F2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D9D1C91B9400014F2D2 /* AppDelegate.swift */; };
+		88892DA21C91B9400014F2D2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88892DA11C91B9400014F2D2 /* GameScene.sks */; };
+		88892DA41C91B9410014F2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88892DA31C91B9410014F2D2 /* Assets.xcassets */; };
+		88892DA71C91B9410014F2D2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88892DA51C91B9410014F2D2 /* MainMenu.xib */; };
+		88892DAC1C91B94F0014F2D2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D811C91B0560014F2D2 /* GameScene.swift */; };
+		88892DAD1C91B9550014F2D2 /* Mouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892D931C91B1160014F2D2 /* Mouse.swift */; };
+		88892DB11C91B96A0014F2D2 /* NSColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88892DB01C91B96A0014F2D2 /* NSColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88892D7A1C91B04F0014F2D2 /* Mouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88892D7D1C91B0510014F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88892D7F1C91B0510014F2D2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		88892D811C91B0560014F2D2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		88892D831C91B0560014F2D2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		88892D861C91B0560014F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88892D881C91B0570014F2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88892D8B1C91B0570014F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88892D8D1C91B0570014F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88892D931C91B1160014F2D2 /* Mouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouse.swift; sourceTree = "<group>"; };
+		88892D951C91B7920014F2D2 /* UIColorsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorsExtensions.swift; sourceTree = "<group>"; };
+		88892D9B1C91B9400014F2D2 /* MouseX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88892D9D1C91B9400014F2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88892DA11C91B9400014F2D2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		88892DA31C91B9410014F2D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88892DA61C91B9410014F2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		88892DA81C91B9410014F2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88892DB01C91B96A0014F2D2 /* NSColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88892D771C91B04F0014F2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88892D981C91B9400014F2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88892D711C91B04E0014F2D2 = {
+			isa = PBXGroup;
+			children = (
+				88892D7C1C91B04F0014F2D2 /* Mouse */,
+				88892D9C1C91B9400014F2D2 /* MouseX */,
+				88892D7B1C91B04F0014F2D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88892D7B1C91B04F0014F2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88892D7A1C91B04F0014F2D2 /* Mouse.app */,
+				88892D9B1C91B9400014F2D2 /* MouseX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88892D7C1C91B04F0014F2D2 /* Mouse */ = {
+			isa = PBXGroup;
+			children = (
+				88892D7D1C91B0510014F2D2 /* AppDelegate.swift */,
+				88892D7F1C91B0510014F2D2 /* GameScene.sks */,
+				88892D811C91B0560014F2D2 /* GameScene.swift */,
+				88892D931C91B1160014F2D2 /* Mouse.swift */,
+				88892D831C91B0560014F2D2 /* GameViewController.swift */,
+				88892D951C91B7920014F2D2 /* UIColorsExtensions.swift */,
+				88892D851C91B0560014F2D2 /* Main.storyboard */,
+				88892D881C91B0570014F2D2 /* Assets.xcassets */,
+				88892D8A1C91B0570014F2D2 /* LaunchScreen.storyboard */,
+				88892D8D1C91B0570014F2D2 /* Info.plist */,
+			);
+			path = Mouse;
+			sourceTree = "<group>";
+		};
+		88892D9C1C91B9400014F2D2 /* MouseX */ = {
+			isa = PBXGroup;
+			children = (
+				88892DB01C91B96A0014F2D2 /* NSColorExtension.swift */,
+				88892D9D1C91B9400014F2D2 /* AppDelegate.swift */,
+				88892DA11C91B9400014F2D2 /* GameScene.sks */,
+				88892DA31C91B9410014F2D2 /* Assets.xcassets */,
+				88892DA51C91B9410014F2D2 /* MainMenu.xib */,
+				88892DA81C91B9410014F2D2 /* Info.plist */,
+			);
+			path = MouseX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88892D791C91B04F0014F2D2 /* Mouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88892D901C91B0570014F2D2 /* Build configuration list for PBXNativeTarget "Mouse" */;
+			buildPhases = (
+				88892D761C91B04F0014F2D2 /* Sources */,
+				88892D771C91B04F0014F2D2 /* Frameworks */,
+				88892D781C91B04F0014F2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mouse;
+			productName = Mouse;
+			productReference = 88892D7A1C91B04F0014F2D2 /* Mouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88892D9A1C91B9400014F2D2 /* MouseX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88892DA91C91B9410014F2D2 /* Build configuration list for PBXNativeTarget "MouseX" */;
+			buildPhases = (
+				88892D971C91B9400014F2D2 /* Sources */,
+				88892D981C91B9400014F2D2 /* Frameworks */,
+				88892D991C91B9400014F2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseX;
+			productName = MouseX;
+			productReference = 88892D9B1C91B9400014F2D2 /* MouseX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88892D721C91B04E0014F2D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mouse;
+				TargetAttributes = {
+					88892D791C91B04F0014F2D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					88892D9A1C91B9400014F2D2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 88892D751C91B04E0014F2D2 /* Build configuration list for PBXProject "Mouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88892D711C91B04E0014F2D2;
+			productRefGroup = 88892D7B1C91B04F0014F2D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88892D791C91B04F0014F2D2 /* Mouse */,
+				88892D9A1C91B9400014F2D2 /* MouseX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88892D781C91B04F0014F2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88892D801C91B0510014F2D2 /* GameScene.sks in Resources */,
+				88892D8C1C91B0570014F2D2 /* LaunchScreen.storyboard in Resources */,
+				88892D891C91B0570014F2D2 /* Assets.xcassets in Resources */,
+				88892D871C91B0560014F2D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88892D991C91B9400014F2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88892DA41C91B9410014F2D2 /* Assets.xcassets in Resources */,
+				88892DA21C91B9400014F2D2 /* GameScene.sks in Resources */,
+				88892DA71C91B9410014F2D2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88892D761C91B04F0014F2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88892D821C91B0560014F2D2 /* GameScene.swift in Sources */,
+				88892D961C91B7920014F2D2 /* UIColorsExtensions.swift in Sources */,
+				88892D841C91B0560014F2D2 /* GameViewController.swift in Sources */,
+				88892D7E1C91B0510014F2D2 /* AppDelegate.swift in Sources */,
+				88892D941C91B1160014F2D2 /* Mouse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88892D971C91B9400014F2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88892DB11C91B96A0014F2D2 /* NSColorExtension.swift in Sources */,
+				88892DAC1C91B94F0014F2D2 /* GameScene.swift in Sources */,
+				88892DAD1C91B9550014F2D2 /* Mouse.swift in Sources */,
+				88892D9E1C91B9400014F2D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88892D851C91B0560014F2D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88892D861C91B0560014F2D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88892D8A1C91B0570014F2D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88892D8B1C91B0570014F2D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		88892DA51C91B9410014F2D2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88892DA61C91B9410014F2D2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88892D8E1C91B0570014F2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88892D8F1C91B0570014F2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88892D911C91B0570014F2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mouse.Mouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88892D921C91B0570014F2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mouse.Mouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88892DAA1C91B9410014F2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MouseX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = mouse.MouseX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88892DAB1C91B9410014F2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MouseX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = mouse.MouseX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88892D751C91B04E0014F2D2 /* Build configuration list for PBXProject "Mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88892D8E1C91B0570014F2D2 /* Debug */,
+				88892D8F1C91B0570014F2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88892D901C91B0570014F2D2 /* Build configuration list for PBXNativeTarget "Mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88892D911C91B0570014F2D2 /* Debug */,
+				88892D921C91B0570014F2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88892DA91C91B9410014F2D2 /* Build configuration list for PBXNativeTarget "MouseX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88892DAA1C91B9410014F2D2 /* Debug */,
+				88892DAB1C91B9410014F2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88892D721C91B04E0014F2D2 /* Project object */;
+}
